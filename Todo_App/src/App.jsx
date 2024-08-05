@@ -106,7 +106,7 @@ function App() {
         </div>
 
         <input className='my-4 mr-2 text-white' onChange={toggleFinished} type="checkbox" checked={showFinished} />Show Finished
-
+         <div className=' h-[1px] bg-black opacity-25 w-[90] my-1 mx-auto'></div>
         <h2 className='text-lg text-white font-bold hover:font-bold transition-all duration-10'> Your - Todos</h2>
 
         <div className="todos">
